@@ -1,0 +1,17 @@
+{
+  "name": "trie",
+  "version": "1.0.0",
+  "description": "A simple trie implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "Josh Choo <dev@joshuous.com>",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
